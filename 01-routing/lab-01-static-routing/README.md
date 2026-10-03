@@ -54,3 +54,33 @@ The final result was successful bidirectional communication:
 
 - PC1 → PC2 ✅
 - PC2 → PC1 ✅
+
+## Troubleshooting
+
+### Issue
+
+PC2 could not communicate with PC1
+
+### Diagnosis
+
+The default gateway configured on PC2 was incorrect 
+
+PC2 was initially configured with:
+
+```text
+IP Address: 192.168.20.10
+Default Gateway: 192.168.20.10
+```
+
+The gateway should have been the router interface on the same LAN:
+
+Default Gateway: 192.168.20.1
+
+Resolution
+The default gateway on PC2 was corrected to:
+192.168.20.1
+
+After correcting the gateway, bidirectional connectivity was restored.
+
+- PC1 → PC2 ✅
+- PC2 → PC1 ✅
