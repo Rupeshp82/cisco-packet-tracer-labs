@@ -26,8 +26,6 @@ PC1 - Switch1 - R1 - R2 - Switch2 - PC2
 ```text
 ip route 192.168.20.0 255.255.255.0 10.0.0.2
 
-## Static Routes
-
 ### R2
 
 ```text
