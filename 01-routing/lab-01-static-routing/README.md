@@ -1,12 +1,13 @@
 Lab 01 — Static Routing Between Two LANs
 
-##Objective
+## Objective
 
 Build a small network using two routers and configure static routing to allow communication between two separate LANs.
 
 ## Topology
 
 PC1 - Switch1 - R1 - R2 - Switch2 - PC2
+![Network Topology](topology.png)
 
 ## IP Addressing
 
@@ -99,6 +100,3 @@ After correcting the gateway, bidirectional connectivity was restored.
 - Basic network troubleshooting
 - Cisco IOS CLI
 
-## Topology
-
-![Network Topology](topology.png)
