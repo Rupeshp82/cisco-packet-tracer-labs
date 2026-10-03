@@ -76,7 +76,8 @@ The gateway should have been the router interface on the same LAN:
 
 Default Gateway: 192.168.20.1
 
-Resolution
+###Resolution
+
 The default gateway on PC2 was corrected to:
 192.168.20.1
 
