@@ -32,3 +32,25 @@ ip route 192.168.20.0 255.255.255.0 10.0.0.2
 ```text
 ip route 192.168.10.0 255.255.255.0 10.0.0.1
 ```
+## Verification
+
+Router interfaces were verified using:
+
+```text
+show ip interface brief
+```
+
+Routing tables were verified using:
+```text
+show ip route
+```
+
+End-to-end connectivity was tested using:
+```text
+ping
+```
+
+The final result was successful bidirectional communication:
+
+- PC1 → PC2 ✅
+- PC2 → PC1 ✅
