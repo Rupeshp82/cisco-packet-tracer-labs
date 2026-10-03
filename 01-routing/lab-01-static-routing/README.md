@@ -98,3 +98,7 @@ After correcting the gateway, bidirectional connectivity was restored.
 - Network connectivity testing
 - Basic network troubleshooting
 - Cisco IOS CLI
+
+## Topology
+
+![Network Topology](topology.png)
