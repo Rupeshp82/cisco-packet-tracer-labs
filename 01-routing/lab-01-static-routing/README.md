@@ -85,3 +85,16 @@ After correcting the gateway, bidirectional connectivity was restored.
 
 - PC1 → PC2 ✅
 - PC2 → PC1 ✅
+
+## Skills Practiced
+
+- Cisco Packet Tracer
+- IPv4 addressing
+- Subnetting
+- Router interface configuration
+- Static routing
+- Default gateway configuration
+- Routing table verification
+- Network connectivity testing
+- Basic network troubleshooting
+- Cisco IOS CLI
